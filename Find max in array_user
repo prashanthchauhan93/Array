@@ -1,0 +1,13 @@
+# Finding max value in an array entered by user
+from array import*
+arr=array('i',[])
+l=int(input('enter length of array: '))
+for i in range(l):
+    v=int(input('enter the values:'))
+    arr.append(v)
+print('The array entered by user is: ',arr)
+while i>=1:
+    if v>i:
+        print('The max value in the array is:', v)
+        break
+    i=i+1
