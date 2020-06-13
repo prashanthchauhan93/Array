@@ -1,0 +1,15 @@
+# python code where a user enters values in an array and again search for index of value
+from array import*
+arr=array('i',[])
+n=int(input('Hey user, enter length of array: '))
+for i in range(n):
+    x=int(input('Please enter the values: '))
+    arr.append(x)
+print('The array is : ' ,arr)
+val=int(input('Enter the value for search: '))
+k=0
+for e in arr:
+    if e==val:
+        print('The index of value for search is: ', k)
+        break
+    k+=1
